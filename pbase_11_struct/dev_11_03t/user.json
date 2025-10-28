@@ -1,0 +1,52 @@
+{
+  "id": 1,
+  "name": "Иван Петров",
+  "email": "ivan.petrov@example.com",
+  "phone": "+7 999 123-45-67",
+  "address": {
+    "street": "Улица Ленина",
+    "city": "Москва",
+    "postalCode": "101000"
+  },
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Ноутбук",
+        "description": "Мощный ноутбук для работы и игр",
+        "price": 59990,
+        "category": "Электроника",
+        "brand": "Brand A",
+        "rating": 4.5,
+        "reviews": 120
+      },
+      "quantity": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Смартфон",
+        "description": "Современный смартфон с отличной камерой",
+        "price": 29990,
+        "category": "Электроника",
+        "brand": "Brand B",
+        "rating": 4.7,
+        "reviews": 200
+      },
+      "quantity": 2
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Наушники",
+        "description": "Беспроводные наушники с шумоподавлением",
+        "price": 7990,
+        "category": "Аудио",
+        "brand": "Brand C",
+        "rating": 4.3,
+        "reviews": 80
+      },
+      "quantity": 1
+    }
+  ]
+}

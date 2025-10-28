@@ -1,0 +1,39 @@
+{
+  "id": 3,
+  "name": "Сергей Иванов",
+  "email": "sergey.ivanov@example.com",
+  "phone": "+7 999 345-67-89",
+  "address": {
+    "street": "Улица Чехова",
+    "city": "Екатеринбург",
+    "postalCode": "620000"
+  },
+  "cart": [
+    {
+      "product": {
+        "id": 6,
+        "name": "Тетрис",
+        "description": "Современная игровая консоль игры тетрис с поддержкой 4K",
+        "price": 9990,
+        "category": "Игры",
+        "brand": "Brand F",
+        "rating": 4.8,
+        "reviews": 300
+      },
+      "quantity": 1
+    },
+    {
+      "product": {
+        "id": 7,
+        "name": "Клавиатура",
+        "description": "Игровая механическая клавиатура с подсветкой",
+        "price": 5990,
+        "category": "Аксессуары",
+        "brand": "Brand G",
+        "rating": 4.4,
+        "reviews": 110
+      },
+      "quantity": 1
+    }
+  ]
+}
