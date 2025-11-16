@@ -26,6 +26,7 @@ func formattedCheck(a, b int) error {
 func main() {
 	fmt.Println("")
 
+	fmt.Println("\n-------%+v, err1")
 	err1 := formattedCheck(0, 1)
 	if err1 != nil {
 		fmt.Printf("%+v\n", err1)
@@ -49,6 +50,7 @@ func main() {
 		fmt.Println("Ok")
 	}
 
+	fmt.Println("\n-------_, err4 := strconv.Atoi(A123)")
 	_, err4 := strconv.Atoi("A123")
 	if err4 != nil {
 		fmt.Printf("%#v\n", err4)
