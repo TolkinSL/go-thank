@@ -1,5 +1,5 @@
 //Запуск Stepik заданий
-// $ echo "a 5" | go run ./dev_01_07t
+// $ echo "a 5" | go run ./task_1_2_3.go
 
 package main
 

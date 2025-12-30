@@ -38,6 +38,7 @@ func main() {
 		if n%2 != 0 {
 			continue
 		}
+		
 		fmt.Println("continue", n)
 	}
 }
