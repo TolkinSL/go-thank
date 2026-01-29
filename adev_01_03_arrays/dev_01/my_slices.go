@@ -18,4 +18,11 @@ func main() {
 	fmt.Printf("%#v\n", s2[1:3])
 	fmt.Printf("%#v\n", s2[:2])
 	fmt.Printf("%#v\n", s2[2:])
+
+	var s3 []string
+	fmt.Printf("%#v\n", s3)
+	fmt.Println(len(s3))
+	fmt.Println(cap(s3))
+	s3 = append(s3, "abc")
+	fmt.Printf("%#v\n", s3)
 }

@@ -1,0 +1,16 @@
+
+    Today I learned → TIL
+    Высшее учебное заведение → ВУЗ
+    Кот обладает талантом → КОТ
+
+
+//---------
+
+Sample Input:
+
+Today I learned
+
+Sample Output:
+
+TIL
+
