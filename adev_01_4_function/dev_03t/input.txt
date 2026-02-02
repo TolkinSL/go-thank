@@ -1,0 +1,16 @@
+//Запуск Stepik заданий
+// $ echo "1 2 3 4 5 6" | go run ./task_1_4_4.go
+// [2 4 6]
+
+//---------
+
+Sample Input:
+
+1 2 3 4 5 6
+
+Sample Output:
+
+[2 4 6]
+
+
+
