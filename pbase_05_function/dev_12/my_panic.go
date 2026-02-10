@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	defer handlePanic()
 	panic("My panic 111")
-	fmt.Println("Код который выполняется после паники")
+	fmt.Println("Код который Не выполняется после паники")
 }
 
 func handlePanic() {
