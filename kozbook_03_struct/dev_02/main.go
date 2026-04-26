@@ -12,6 +12,7 @@ func (c *character) fixName(name string) {
 
 func main() {
 	user1 := new(character)
+	(*user1).name = "test"
 	user1.name = "test"
 	fmt.Println(user1.name)
 
