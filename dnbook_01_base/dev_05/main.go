@@ -18,6 +18,8 @@ func main() {
 		}
 
 		b, err := io.ReadAll(resp.Body)
+		resp.Body.Close()
+		
 		if err != nil {
 			fmt.Fprintf(os.Stderr,"fetch read url: %s body: %v\n", url, err)
 			os.Exit(1)
