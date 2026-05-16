@@ -21,6 +21,7 @@ func main() {
 				continue
 			}
 			countWords(f, count)
+			f.Close()
 		}
 	}
 
