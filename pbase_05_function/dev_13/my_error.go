@@ -19,13 +19,13 @@ func main() {
 }
 
 func someFunc() error {
-	// return errors.New("My error 111")
-	return fmt.Errorf("Func: %s, Process ID: %d", "myErrorFunc", 1023)
+	// return errors.New("my error 111")
+	return fmt.Errorf("func: %s, process id: %d", "myErrorFunc", 1023)
 }
 
 func div(x, y int) (int, error) {
 	if y == 0 {
-		return 0, errors.New("Divide by 0 111")
+		return 0, errors.New("divide by 0 111")
 	}
 
 	return x / y, nil
